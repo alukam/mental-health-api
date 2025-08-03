@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot Response</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #f3f4f6;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .response-container {
+            background: white;
+            padding: 2rem 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h2 {
+            color: #374151;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            color: #1f2937;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        a {
+            display: block;
+            margin-top: 2rem;
+            text-align: center;
+            text-decoration: none;
+            background-color: #6366f1;
+            color: white;
+            padding: 0.75rem;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+
+        a:hover {
+            background-color: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="response-container">
+        <h2>Bot Response</h2>
+        <p>{{ response }}</p>
+        <a href="/">Ask Another Question</a>
+    </div>
+</body>
+</html>
