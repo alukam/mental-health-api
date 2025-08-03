@@ -3,4 +3,5 @@ transformers
 torch
 wordsegment
 gunicorn
+sentencepiece
 # render fix
